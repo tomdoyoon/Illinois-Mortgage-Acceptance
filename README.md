@@ -26,11 +26,11 @@ The project is concluded with a classification deep learning model, Up sampled (
 - Loan Outcome Analysis: Engineering, cleansing, and analysis related to the Illinois 2021 HDMA reporting data.
 - Loan Outcome Model: Models predicting an Illinois applicant's mortgage outcome.
 
-
-
-
 # Observations and Findings
-
+- MSA-MD code 16984 Chicago-Naperville-Evanston has 57.18% of all applicants and is 1% more successful than the rest of the MSA-MD codes.
+- Principal occupancy types have a .489% over Investment occupancy types, however, the P Value is 5.8%.
+- High property values (>=$325K) have a 6.65% success advantage over low property values (<=$195K)
+- 
 
 # Model Evaluations
 
