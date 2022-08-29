@@ -10,6 +10,8 @@ As property costs continue to rise faster than wages, home-ownership seems more 
 
 To understand the factors of successful mortgage applications, the report uses natural language preprocessing, feature engineering,clustering, statistical analysis, and machine learning applications to develop significant conclusions and relationships between selected features.
 
+Applicants who used a top 15 lender from 2020, ranked by loans issued, had a success rate of 94.27% compared to a 89.98% success rate for those who used a lender out of the top 15. Income played a large role, as expected. Incomes greater than or equal to $105K were over 9% more successful than incomes less than or equal to $62K. While one may assume that a larger loan is more risky to the lender which in turn would lead to rejections, the data says otherwise. Mortgage applications for properties valued over or equal to $325K had a 94.9% success rate compared to an 88.27% success rate for properties valued under or equal to $195K. This may not show the full picture, as loan to value seems to be another big factor. Loan to value less than or equal to 80% has a 95.05% success rate, almost 5% higher than a loan to value greater than or equal to 95%. Perhaps the 20% down payment not only saves on the monthly payments, but also increases mortgage application odds?
+
 The goal of the study is to provide insights into correlated factors with successful mortgage applicants in Illinois. This is done through interpreting various features on the 2021 HDMA report, feature engineering fields, and analyzing stratas to determine statistically significant relationships.
 
 # Introduction
