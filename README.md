@@ -31,3 +31,7 @@ The project is concluded with a classification deep learning model, Up sampled (
 
 
 # Model Evaluations
+
+The outcome of the mortgage application is heavily imbalanced, 92.88% of all applications were successful.
+
+The top performing classification model would be the random forest model with an over sample of the minority, with a macro average F1 score of .93. Prediction of success had a F1 of .99 and prediction of rejection had a F1 of .87. The random forest model, without sampling techniques, performs quite well and has the same metrics as the over sample of the minority random forest model.
