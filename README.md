@@ -14,9 +14,16 @@ The goal of the study is to provide insights into correlated factors with succes
 
 # Introduction
 
+Please use the Table of Contents, found below, to navigate the project!
 
+In this project I explore mortgage application data sourced from the 2021 HDMA report. The data can be retrieved and partitioned by state through the FFIEC’s website under HDMA Data Publication. All cleaning was performed in the Jupyter Notebook, uploaded in the repository.
 
-# Table of Contents
+The project is concluded with a classification deep learning model, Up sampled (Oversample from the minority) Random Forest model, Down sampled (Undersample from the majority) Random Forest model, SMOTE (Synthetic Minority Oversampling Technique) Random Forest model, and a regular Random Forest model that all have an objective to estimate if a particular applicant will be successful and receive a mortgage.
+
+# Table of Contents:
+- Loan Outcome Analysis: Engineering, cleansing, and analysis related to the Illinois 2021 HDMA reporting data.
+- Loan Outcome Model: Models predicting an Illinois applicant's mortgage outcome.
+
 
 
 
