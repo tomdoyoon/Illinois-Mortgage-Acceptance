@@ -20,7 +20,7 @@ Please use the Table of Contents, found below, to navigate the project!
 
 In this project I explore mortgage application data sourced from the 2021 HDMA report. The data can be retrieved and partitioned by state through the FFIEC’s website under HDMA Data Publication. All data cleaning and engineering was performed in the Jupyter Notebook, uploaded in the repository.
 
-The project is concluded with a classification deep learning model, Up Sampled (Oversample from the minority) Random Forest model, Down Sampled (Undersample from the majority) Random Forest model, SMOTE (Synthetic Minority Oversampling Technique) Random Forest model, and a regular Random Forest model that all have an objective to estimate if a particular applicant will be successful and receive a mortgage.
+The project is concluded with an Up Sampled (Oversample from the minority) Random Forest model, Down Sampled (Undersample from the majority) Random Forest model, SMOTE (Synthetic Minority Oversampling Technique) Random Forest model, and a regular Random Forest model that all have an objective to estimate if a particular applicant will be successful and receive a mortgage.
 
 # Table of Contents:
 - Loan Outcome Analysis: Engineering, cleansing, and analysis related to the Illinois 2021 HDMA reporting data.
@@ -45,4 +45,4 @@ The project is concluded with a classification deep learning model, Up Sampled (
 
 The outcome of the mortgage application is heavily imbalanced, 92.88% of all applications were successful.
 
-The top performing classification model would be the random forest model with an over sample of the minority, with a macro average F1 score of .93. Prediction of success had a F1 of .99 and prediction of rejection had a F1 of .87. The random forest model, without sampling techniques, performs quite well and has the same metrics as the over sample of the minority random forest model.
+The top performing classification model was the random forest model with an over sample of the minority, with a macro average F1 score of .93. Prediction of success had a F1 of .99 and prediction of rejection had a F1 of .87. The random forest model, without sampling techniques, performed quite well and had the same metrics as the over sample of the minority random forest model. Thus, extensive resampling may not be necessary for predicting the imbalanced loan outcome.
